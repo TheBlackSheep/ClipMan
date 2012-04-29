@@ -1,0 +1,133 @@
+object frmOptions: TfrmOptions
+  Left = 340
+  Height = 336
+  Top = 222
+  Width = 509
+  BorderStyle = bsDialog
+  Caption = 'Options'
+  ClientHeight = 336
+  ClientWidth = 509
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  SessionProperties = 'memoInitData.Lines;memoInitScript.Lines;spineditPeriod.Value;chkbxShowBalloon.Checked'
+  LCLVersion = '0.9.31'
+  object memoInitScript: TMemo
+    Left = 15
+    Height = 192
+    Top = 24
+    Width = 272
+    Lines.Strings = (
+      '//Clippy is the Clipboard assigned to and '
+      '//from a TStringList class on entry and '
+      '//exit from the script!'
+      ''
+      'var '
+      '   idx:integer;'
+      'begin'
+      '  for idx := 0 to Clippy.Count-1 do begin'
+      '     Clippy[idx] := ''Hello world!'';'
+      '  end;'
+      'end.'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object memoInitData: TMemo
+    Left = 297
+    Height = 192
+    Top = 24
+    Width = 200
+    Lines.Strings = (
+      'This '
+      'is '
+      'a '
+      'set of '
+      ''
+      'test'
+      ''
+      'lines with'
+      ''
+      'spaces!'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object lblScriptAddNew: TLabel
+    Left = 16
+    Height = 14
+    Top = 10
+    Width = 126
+    Caption = 'Initial Script on "Add New"'
+    ParentColor = False
+  end
+  object lblInitialTestData: TLabel
+    Left = 297
+    Height = 14
+    Top = 9
+    Width = 122
+    Caption = 'Initial "Input (Test Data)"'
+    ParentColor = False
+  end
+  object btnOk: TBitBtn
+    Left = 422
+    Height = 30
+    Top = 296
+    Width = 75
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = btnOkClick
+    TabOrder = 2
+  end
+  object btnCancel: TBitBtn
+    Left = 344
+    Height = 30
+    Top = 296
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    Kind = bkCancel
+    ModalResult = 2
+    OnClick = btnCancelClick
+    TabOrder = 3
+  end
+  object chkbxShowBalloon: TCheckBox
+    Left = 18
+    Height = 17
+    Top = 229
+    Width = 263
+    Caption = 'Show modified contents of clipboard as balloon hint'
+    Checked = True
+    OnChange = chkbxShowBalloonChange
+    ParentBidiMode = False
+    State = cbChecked
+    TabOrder = 4
+  end
+  object lblPeriod: TLabel
+    Left = 16
+    Height = 14
+    Top = 259
+    Width = 172
+    Caption = 'Period the hint is displayed (in secs)'
+    ParentColor = False
+  end
+  object spineditPeriod: TFloatSpinEdit
+    Left = 200
+    Height = 21
+    Top = 256
+    Width = 66
+    Increment = 0.5
+    MaxValue = 5
+    MinValue = 0.5
+    TabOrder = 5
+    Value = 1
+  end
+  object frmStorage: TXMLPropStorage
+    StoredValues = <>
+    FileName = 'ClipMan.cfg'
+    left = 8
+    top = 304
+  end
+end

@@ -1,0 +1,504 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: englangres.msgaboutcreditsline1
+msgid "Credits go to;"
+msgstr "Credits gehen;"
+
+#: englangres.msgaboutcreditsline2
+msgid "  the Awesome FPC/Lazarus team"
+msgstr "die Awesome FPC / Lazarus Team"
+
+#: englangres.msgaboutcreditsline3
+msgid "  PilotLogic for CodeTyphon"
+msgstr "PilotLogic für CodeTyphon"
+
+#: englangres.msgaboutcreditsline4
+msgid "  Carlo Kok (RemObjects) for the Open Source PascalScript"
+msgstr "Carlo Kok (RemObjects) für die Open Source PascalScript"
+
+#: englangres.msgaboutcreditsline5
+#, fuzzy
+#| msgid "  & the excellent SynEditor components"
+msgid "  && the excellent SynEditor components"
+msgstr "die hervorragende SynEditor Komponenten"
+
+#: englangres.msgaboutmessageline1
+msgid "Written by TheBlackSheep using FreePascal && Lazarus "
+msgstr "Geschrieben von TheBlackSheep mit FreePascal und Lazarus &"
+
+#: englangres.msgaboutmessageline2
+msgid "as a demonstration of some of the components and to "
+msgstr "als eine Demonstration von einigen der Komponenten und"
+
+#: englangres.msgaboutmessageline3
+msgid "make something useful for all Pascal developers "
+msgstr "machen etwas Nützliches für alle Pascal-Entwickler"
+
+#: englangres.msgaboutmessageline4
+msgid "(and other geeks) out there!"
+msgstr "(Und andere Geeks) da draußen!"
+
+#: englangres.msgaboutuseline1
+msgid "Free for all uses!"
+msgstr "Frei für alle Anwendungen!"
+
+#: englangres.msgaboutuseline2
+msgid "Please make suggestions for improvements!"
+msgstr "Bitte machen Sie Vorschläge für Verbesserungen!"
+
+#: englangres.msgallfiles
+msgctxt "englangres.msgallfiles"
+msgid "All files (*.*)|*.*"
+msgstr "Alle Dateien (*.*)|*.*"
+
+#: englangres.msgclipboardcleared
+msgctxt "englangres.msgclipboardcleared"
+msgid "Clipboard cleared!"
+msgstr "Zwischenablage gelöscht!"
+
+#: englangres.msgclpbrdfrmtnotspprtdforscripts
+msgctxt "englangres.msgclpbrdfrmtnotspprtdforscripts"
+msgid "Sorry, the clipboard contains data of a format that is currently unsupported for using with a script!"
+msgstr "Leider enthält die Daten in der Zwischenablage von einem Format, das derzeit nicht unterstützt wird für die Verwendung mit einem Script!"
+
+#: englangres.msgclpbrdfrmtnotspprtdforscriptstitle
+msgid "Clipboard format not supported for scripts!"
+msgstr "Das Format der Zwischenablage nicht für Skripte unterstützt!"
+
+#: englangres.msgconfirmdelete
+msgctxt "englangres.msgconfirmdelete"
+msgid "Are you sure you want to delete the script named"
+msgstr "Sind Sie sicher, dass Sie das Skript mit dem Namen löschen"
+
+#: englangres.msgerrorcompiling
+msgctxt "englangres.msgerrorcompiling"
+msgid "Error compiling:"
+msgstr "Fehler beim Kompilieren:"
+
+#: englangres.msgexecutionerror
+msgctxt "englangres.msgexecutionerror"
+msgid "Execution Error: Something went wrong executing script!"
+msgstr ""
+
+#: englangres.msgformatnotrecognised
+msgctxt "englangres.msgformatnotrecognised"
+msgid "Sorry, unable to recognise that particular filetype!"
+msgstr "Sorry, nicht in der Lage, die insbesondere filetype zu erkennen!"
+
+#: englangres.msgformatnotrecognisedtitle
+msgctxt "englangres.msgformatnotrecognisedtitle"
+msgid "File format not recognised"
+msgstr "Dateiformat nicht erkannt"
+
+#: englangres.msgformatnotrecognisedtrytoload
+msgctxt "englangres.msgformatnotrecognisedtrytoload"
+msgid "Do you want to try and load it as a text file anyway?"
+msgstr "Wollen Sie versuchen, und laden Sie sie als Textdatei überhaupt?"
+
+#: englangres.msgimageformatnotsupported
+msgctxt "englangres.msgimageformatnotsupported"
+msgid "Sorry, image type not supported"
+msgstr "Sorry, Bild-Typ nicht unterstützt"
+
+#: englangres.msgloadfiles
+msgctxt "englangres.msgloadfiles"
+msgid "Text files (*.txt, *.csv, *.tab)|*.TXT;*.CSV;*.TAB|Images (*.bmp, *.jpg, *.png)|*.BMP;*.JPG;*.PNG;|All Files (*.*)|*.*"
+msgstr "Text-Dateien (*. txt, *. csv *. tab) | *. TXT, *. CSV, *. TAB | Images (*. bmp, *. jpg, *. png) | *. BMP, *. JPG , *. PNG; | Alle Dateien (*.*)|*.*"
+
+#: englangres.msgloadfiletitle
+msgctxt "englangres.msgloadfiletitle"
+msgid "Load a file to the clipboard..."
+msgstr "Legen Sie eine Datei in die Zwischenablage ..."
+
+#: englangres.msgsaveimgclipboardfilter
+msgctxt "englangres.msgsaveimgclipboardfilter"
+msgid "Bitmap images (*.bmp)|*.BMP|JPEG Images (*.jpg)|*.JPG|Portable Network Graphic Image (*.png)|*.PNG|[Experimental] 256 Color Bitmap (*.bmp)|*.bmp|X Pixmap File (*.xpm)|*.XPM"
+msgstr "Bitmap-Bilder (*. bmp) | *. BMP | JPEG Bilder (*. jpg) | *. JPG | Portable Network Graphic Image (*. png) | *. PNG | [Experimental] 256 Color Bitmap (*. bmp) | *. bmp | X Pixmap-Datei (*. xpm) | *. XPM"
+
+#: englangres.msgsaveimgclipboardtitle
+msgctxt "englangres.msgsaveimgclipboardtitle"
+msgid "Save image on clipboard as..."
+msgstr "Bild speichern auf Zwischenablage als ..."
+
+#: englangres.msgsavetxtclipboardfilter
+msgctxt "englangres.msgsavetxtclipboardfilter"
+msgid "Text files (*.txt)|*.TXT|CSV Files (*.csv)|*.CSV|Tab Files (*.tab)|*.TAB"
+msgstr "Text-Dateien (*. txt) | *. txt | CSV-Dateien (*. csv) | *. csv | Tab-Dateien (*. tab) | *. TAB"
+
+#: englangres.msgsavetxtclipboardtitle
+msgctxt "englangres.msgsavetxtclipboardtitle"
+msgid "Save text on clipboard as..."
+msgstr "Speichern von Text auf Zwischenablage als ..."
+
+#: englangres.msgscriptalreadyexists
+msgid "A script with this name already exists!"
+msgstr "Ein Skript mit diesem Namen existiert bereits!"
+
+#: englangres.msgscriptexecutedsuccess
+msgctxt "englangres.msgscriptexecutedsuccess"
+msgid "\" executed ok!"
+msgstr " \"Ausgeführt ok!"
+
+#: englangres.msgscriptexecutedtitle
+msgctxt "englangres.msgscriptexecutedtitle"
+msgid "Clipman script \""
+msgstr "Clipman script  \""
+
+#: main.msgallfiles
+msgctxt "main.msgallfiles"
+msgid "All files (*.*)|*.*"
+msgstr "Alle Dateien (*.*)|*.*"
+
+#: main.msgclipboardcleared
+msgctxt "main.msgclipboardcleared"
+msgid "Clipboard cleared!"
+msgstr "Zwischenablage gelöscht!"
+
+#: main.msgclpbrdfrmtnotspprtdforscripts
+msgctxt "main.msgclpbrdfrmtnotspprtdforscripts"
+msgid "Sorry, the clipboard contains data of a format that is currently unsupported for using with a script!"
+msgstr "Leider enthält die Daten in der Zwischenablage von einem Format, das derzeit nicht unterstützt wird für die Verwendung mit einem Script!"
+
+#: main.msgclpbrdfrmtnotspprtdforscriptstitle
+msgid "Clipboard format not support for scripts"
+msgstr "Das Format der Zwischenablage nicht für Skripte unterstützen"
+
+#: main.msgconfirmdelete
+msgctxt "main.msgconfirmdelete"
+msgid "Are you sure you want to delete the script named"
+msgstr "Sind Sie sicher, dass Sie das Skript mit dem Namen löschen"
+
+#: main.msgerrorcompiling
+msgctxt "main.msgerrorcompiling"
+msgid "Error compiling:"
+msgstr "Fehler beim Kompilieren:"
+
+#: main.msgexecutionerror
+msgctxt "main.msgexecutionerror"
+msgid "Execution Error: Something went wrong executing script!"
+msgstr ""
+
+#: main.msgformatnotrecognised
+msgctxt "main.msgformatnotrecognised"
+msgid "Sorry, unable to recognise that particular filetype!"
+msgstr "Sorry, nicht in der Lage, die insbesondere filetype zu erkennen!"
+
+#: main.msgformatnotrecognisedtitle
+msgctxt "main.msgformatnotrecognisedtitle"
+msgid "File format not recognised"
+msgstr "Dateiformat nicht erkannt"
+
+#: main.msgformatnotrecognisedtrytoload
+msgctxt "main.msgformatnotrecognisedtrytoload"
+msgid "Do you want to try and load it as a text file anyway?"
+msgstr "Wollen Sie versuchen, und laden Sie sie als Textdatei überhaupt?"
+
+#: main.msgimageformatnotsupported
+msgctxt "main.msgimageformatnotsupported"
+msgid "Sorry, image type not supported"
+msgstr "Sorry, Bild-Typ nicht unterstützt"
+
+#: main.msgloadfiles
+msgctxt "main.msgloadfiles"
+msgid "Text files (*.txt, *.csv, *.tab)|*.TXT;*.CSV;*.TAB|Images (*.bmp, *.jpg, *.png)|*.BMP;*.JPG;*.PNG;|All Files (*.*)|*.*"
+msgstr "Text-Dateien (*. txt, *. csv *. tab) | *. TXT, *. CSV, *. TAB | Images (*. bmp, *. jpg, *. png) | *. BMP, *. JPG , *. PNG; | Alle Dateien (*.*)|*.*"
+
+#: main.msgloadfiletitle
+msgctxt "main.msgloadfiletitle"
+msgid "Load a file to the clipboard..."
+msgstr "Legen Sie eine Datei in die Zwischenablage ..."
+
+#: main.msgsaveimgclipboardfilter
+msgctxt "main.msgsaveimgclipboardfilter"
+msgid "Bitmap images (*.bmp)|*.BMP|JPEG Images (*.jpg)|*.JPG|Portable Network Graphic Image (*.png)|*.PNG|[Experimental] 256 Color Bitmap (*.bmp)|*.bmp|X Pixmap File (*.xpm)|*.XPM"
+msgstr "Bitmap-Bilder (*. bmp) | *. BMP | JPEG Bilder (*. jpg) | *. JPG | Portable Network Graphic Image (*. png) | *. PNG | [Experimental] 256 Color Bitmap (*. bmp) | *. bmp | X Pixmap-Datei (*. xpm) | *. XPM"
+
+#: main.msgsaveimgclipboardtitle
+msgctxt "main.msgsaveimgclipboardtitle"
+msgid "Save image on clipboard as..."
+msgstr "Bild speichern auf Zwischenablage als ..."
+
+#: main.msgsavetxtclipboardfilter
+msgctxt "main.msgsavetxtclipboardfilter"
+msgid "Text files (*.txt)|*.TXT|CSV Files (*.csv)|*.CSV|Tab Files (*.tab)|*.TAB"
+msgstr "Text-Dateien (*. txt) | *. txt | CSV-Dateien (*. csv) | *. csv | Tab-Dateien (*. tab) | *. TAB"
+
+#: main.msgsavetxtclipboardtitle
+msgctxt "main.msgsavetxtclipboardtitle"
+msgid "Save text on clipboard as..."
+msgstr "Speichern von Text auf Zwischenablage als ..."
+
+#: main.msgscriptexecutedsuccess
+msgctxt "main.msgscriptexecutedsuccess"
+msgid "\" executed ok!"
+msgstr " \"Ausgeführt ok!"
+
+#: main.msgscriptexecutedtitle
+msgctxt "main.msgscriptexecutedtitle"
+msgid "Clipman script \""
+msgstr "Clipman script  \""
+
+#: tfrmabout.caption
+msgid "About"
+msgstr "Über"
+
+#: tfrmmain.btnadd.caption
+msgid "Add &New"
+msgstr "Add & New"
+
+#: tfrmmain.btnclose.caption
+msgid "&Close"
+msgstr "& Close"
+
+#: tfrmmain.btndelete.caption
+msgid "&Delete"
+msgstr "& Löschen"
+
+#: tfrmmain.btnedit.caption
+msgid "&Edit"
+msgstr "Und bearbeiten"
+
+#: tfrmmain.btnhelp.caption
+msgctxt "TFRMMAIN.BTNHELP.CAPTION"
+msgid "&Help"
+msgstr "& Help"
+
+#: tfrmmain.caption
+msgid "Clipboard Manipulator"
+msgstr "Zwischenablage Manipulator"
+
+#: tfrmmain.cbscriptcategory.hint
+msgctxt "TFRMMAIN.CBSCRIPTCATEGORY.HINT"
+msgid "Type/choose a category for this script"
+msgstr "Typ / wählen Sie eine Kategorie für dieses Skript"
+
+#: tfrmmain.dbgridscripts.columns[0].title.caption
+msgid "ScriptName"
+msgstr "ScriptName"
+
+#: tfrmmain.dbgridscripts.columns[1].title.caption
+msgid "Category"
+msgstr "Kategorie"
+
+#: tfrmmain.dbgridscripts.columns[2].title.caption
+msgctxt "TFRMMAIN.DBGRIDSCRIPTS.COLUMNS[2].TITLE.CAPTION"
+msgid "Description"
+msgstr "Beschreibung"
+
+#: tfrmmain.lblscriptcategory.caption
+msgid "Filter Category"
+msgstr "Filter Kategorie"
+
+#: tfrmmain.menuitem1.caption
+msgctxt "TFRMMAIN.MENUITEM1.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.menuitem2.caption
+msgctxt "TFRMMAIN.MENUITEM2.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.menuitem4.caption
+msgctxt "TFRMMAIN.MENUITEM4.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.menuitem9.caption
+msgctxt "TFRMMAIN.MENUITEM9.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.miabout.caption
+msgid "&About"
+msgstr "& Über"
+
+#: tfrmmain.miabout.hint
+msgid "An about box!"
+msgstr "Eine Info-Box!"
+
+#: tfrmmain.miclearclipbrd.caption
+msgid "&Clear Clipboard"
+msgstr "& Clear Clipboard"
+
+#: tfrmmain.miclearclipbrd.hint
+msgid "Clear the clipboard!"
+msgstr "Deaktivieren Sie die Zwischenablage!"
+
+#: tfrmmain.mieditscripts.caption
+msgid "&Manage Scripts"
+msgstr "& Scripts verwalten"
+
+#: tfrmmain.mieditscripts.hint
+msgid "Manage the saved scripts"
+msgstr "Verwalten der gespeicherten Skripten"
+
+#: tfrmmain.miexit.caption
+msgid "E&xit"
+msgstr "E & xit"
+
+#: tfrmmain.miexit.hint
+msgid "Close ClipMan completely!"
+msgstr "Close clipman komplett!"
+
+#: tfrmmain.mihelp.caption
+msgctxt "TFRMMAIN.MIHELP.CAPTION"
+msgid "&Help"
+msgstr "& Help"
+
+#: tfrmmain.miloadfromfile.caption
+msgid "&Load Clipboard from file"
+msgstr "& Load Zwischenablage aus einer Datei"
+
+#: tfrmmain.miloadfromfile.hint
+msgid "Load a file to the clipboard"
+msgstr "Legen Sie eine Datei in die Zwischenablage"
+
+#: tfrmmain.mioptions.caption
+msgid "&Options"
+msgstr "& Optionen"
+
+#: tfrmmain.mioptions.hint
+msgid "Configure options"
+msgstr "Konfigurieren der Optionen"
+
+#: tfrmmain.misavetofile.caption
+msgid "&Save Clipboard to file"
+msgstr "& Save Zwischenablage in eine Datei"
+
+#: tfrmmain.misavetofile.hint
+msgid "Save the clipboard to a file"
+msgstr "Speichern Sie die Zwischenablage in eine Datei"
+
+#: tfrmmain.miscripts.caption
+msgid "&Run Script"
+msgstr "& Run Script"
+
+#: tfrmmain.miscripts.hint
+msgid "Run a Script"
+msgstr "Ausführen eines Skripts"
+
+#: tfrmoptions.btncancel.caption
+msgctxt "TFRMOPTIONS.BTNCANCEL.CAPTION"
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: tfrmoptions.btnok.caption
+msgctxt "TFRMOPTIONS.BTNOK.CAPTION"
+msgid "&OK"
+msgstr "& OK"
+
+#: tfrmoptions.caption
+msgid "Options"
+msgstr "Optionen"
+
+#: tfrmoptions.chkbxshowballoon.caption
+msgid "Show modified contents of clipboard as balloon hint"
+msgstr "Zeige modifizierten Inhalt der Zwischenablage als Ballon Hinweis"
+
+#: tfrmoptions.lblinitialtestdata.caption
+msgid "Initial \"Input (Test Data)\""
+msgstr "Initial  \"Input (Test Data) \""
+
+#: tfrmoptions.lblperiod.caption
+msgid "Period the hint is displayed (in secs)"
+msgstr "Zeitraum der Hinweis angezeigt wird (in Sekunden)"
+
+#: tfrmoptions.lblscriptaddnew.caption
+msgid "Initial Script on \"Add New\""
+msgstr "Erste Script auf  \"Add New \""
+
+#: tfrmscripteditor.btncancel.caption
+msgctxt "TFRMSCRIPTEDITOR.BTNCANCEL.CAPTION"
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: tfrmscripteditor.btnhelp.caption
+msgctxt "TFRMSCRIPTEDITOR.BTNHELP.CAPTION"
+msgid "&Help"
+msgstr "& Help"
+
+#: tfrmscripteditor.btnloadscript.caption
+msgid "Load Script"
+msgstr "Load Script"
+
+#: tfrmscripteditor.btnok.caption
+msgctxt "TFRMSCRIPTEDITOR.BTNOK.CAPTION"
+msgid "&OK"
+msgstr "& OK"
+
+#: tfrmscripteditor.btnsavescript.caption
+msgid "Save Script"
+msgstr "Skript speichern"
+
+#: tfrmscripteditor.caption
+msgid "Script Editor"
+msgstr "Script Editor"
+
+#: tfrmscripteditor.cbscriptcategory.hint
+msgctxt "TFRMSCRIPTEDITOR.CBSCRIPTCATEGORY.HINT"
+msgid "Type/choose a category for this script"
+msgstr "Typ / wählen Sie eine Kategorie für dieses Skript"
+
+#: tfrmscripteditor.cbscripttype.text
+msgid "Text"
+msgstr "Text"
+
+#: tfrmscripteditor.eddescription.hint
+msgid "Add a description (this will become the hint on the relevant menu option for this script!)"
+msgstr "Fügen Sie eine Beschreibung (dies wird der Hinweis auf den entsprechenden Menüpunkt für dieses Skript zu werden!)"
+
+#: tfrmscripteditor.edscriptname.hint
+msgid "Provide a \"memorable\" name name for you're script, this will be the name of you're menu option!"
+msgstr "Geben Sie einen  \"denkwürdigen \" name für Sie script sind, wird dies der Name der du Menüpunkt werden!"
+
+#: tfrmscripteditor.lbldescription.caption
+msgctxt "TFRMSCRIPTEDITOR.LBLDESCRIPTION.CAPTION"
+msgid "Description"
+msgstr "Beschreibung"
+
+#: tfrmscripteditor.lblinputdata.caption
+msgid "Input (Test Data)"
+msgstr "Input (Test Data)"
+
+#: tfrmscripteditor.lbloutput.caption
+msgid "Output"
+msgstr "Ausgang"
+
+#: tfrmscripteditor.lblscriptcategory.caption
+msgid "Script Category"
+msgstr "Script Kategorie"
+
+#: tfrmscripteditor.lblscriptname.caption
+msgid "Script Name"
+msgstr "Script Name"
+
+#: tfrmscripteditor.lblscripttype.caption
+msgid "Script Type"
+msgstr "Script Type"
+
+#: tfrmscripteditor.lblselectedscript.caption
+msgid "Script"
+msgstr "Skript"
+
+#: tfrmscripteditor.memosource.hint
+msgid "Try out your test data here!"
+msgstr "Testen Sie Ihre Testdaten hier!"
+
+#: tfrmscripteditor.memotarget.hint
+msgid "Here you'll see the output (if you're lucky!)"
+msgstr "Hier sehen Sie die Ausgabe (wenn man Glück hat!)"
+
+#: tfrmscripteditor.spdbtntest.hint
+msgid "Click here to test your script!"
+msgstr "Klicken Sie hier, um Ihr Skript zu testen!"
+
+#: tfrmscripteditor.synmemcodeeditor.hint
+msgid "You're new clipboard manipulating Pascal script can be written here!"
+msgstr "Du bist neu Zwischenablage manipulieren Pascal Script hier geschrieben werden kann!"
+
+#: tfrmsplashscreen.caption
+msgid "Splash"
+msgstr "Spritzer"
+

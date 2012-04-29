@@ -1,0 +1,11 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: main.caption1
+msgid "Some text"
+msgstr ""
+
+#: main.helloworld1
+msgid "Hello World"
+msgstr ""
+

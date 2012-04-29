@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="ClipMan"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="Other/languages"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <RevisionNr Value="1"/>
+      <BuildNr Value="11"/>
+      <Language Value="0809"/>
+      <StringTable ProductName="ClipMan" ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="--lang de"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="6">
+      <Item1>
+        <PackageName Value="pl_pascalscript"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="pl_rx"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCLBase"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="ClipMan.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ClipMan"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="34"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="77" Y="32"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="editscript.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmScriptEditor"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="editscript"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="28" Y="173"/>
+        <UsageCount Value="214"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../Components/rxmemds/RxMemDSUtil.pas"/>
+        <UnitName Value="RxMemDSUtil"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="260"/>
+        <CursorPos X="34" Y="265"/>
+        <UsageCount Value="152"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="aboutform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="aboutform"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="36"/>
+        <CursorPos X="77" Y="72"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../pp/packages/fcl-image/src/fpwritejpeg.pas"/>
+        <UnitName Value="FPWriteJPEG"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="173"/>
+        <CursorPos X="1" Y="191"/>
+        <UsageCount Value="54"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../lazarus/lcl/clipbrd.pp"/>
+        <UnitName Value="Clipbrd"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="182"/>
+        <CursorPos X="18" Y="195"/>
+        <UsageCount Value="1"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="options.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmOptions"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="options"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="72" Y="7"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../components/units/RxMemDSUtil.pas"/>
+        <UnitName Value="RxMemDSUtil"/>
+        <UsageCount Value="53"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="splashscreen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSplashScreen"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="splashscreen"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="42" Y="11"/>
+        <UsageCount Value="240"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="englangres.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EngLangRes"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="31" Y="40"/>
+        <UsageCount Value="224"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../common/vinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="vinfo"/>
+        <UsageCount Value="219"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../lazarus/lcl/defaulttranslator.pas"/>
+        <UnitName Value="DefaultTranslator"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="154"/>
+        <CursorPos X="38" Y="177"/>
+        <UsageCount Value="39"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../lazarus/lcl/translations.pas"/>
+        <UnitName Value="Translations"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="96"/>
+        <CursorPos X="31" Y="396"/>
+        <UsageCount Value="38"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="vinfo.pas"/>
+        <UnitName Value="vinfo"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="20" HistoryIndex="19">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="207" Column="1" TopLine="192"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="177" Column="7" TopLine="159"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="179" Column="86" TopLine="162"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="691" Column="41" TopLine="683"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="625" Column="3" TopLine="621"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="624" Column="3" TopLine="620"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="623" Column="3" TopLine="619"/>
+      </Position7>
+      <Position8>
+        <Filename Value="editscript.pas"/>
+        <Caret Line="183" Column="34" TopLine="164"/>
+      </Position8>
+      <Position9>
+        <Filename Value="editscript.pas"/>
+        <Caret Line="95" Column="3" TopLine="93"/>
+      </Position9>
+      <Position10>
+        <Filename Value="editscript.pas"/>
+        <Caret Line="94" Column="3" TopLine="92"/>
+      </Position10>
+      <Position11>
+        <Filename Value="editscript.pas"/>
+        <Caret Line="93" Column="3" TopLine="91"/>
+      </Position11>
+      <Position12>
+        <Filename Value="options.pas"/>
+        <Caret Line="48" Column="89" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main.pas"/>
+        <Caret Line="14" Column="65" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="177" Column="29" TopLine="171"/>
+      </Position14>
+      <Position15>
+        <Filename Value="editscript.pas"/>
+        <Caret Line="10" Column="40" TopLine="6"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="171" Column="32" TopLine="171"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="178" Column="12" TopLine="164"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="486" Column="49" TopLine="298"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="182" Column="40" TopLine="171"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="10" Column="52" TopLine="1"/>
+      </Position20>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="ClipMan"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../../Components/Imaging/Source"/>
+      <OtherUnitFiles Value="C:/pp/packages/fcl-image/src/;../../components/rxmemds;../../components/rxfpc;Other/Source;../../common"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowGenInfo Value="False"/>
+      </Verbosity>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EReadError"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

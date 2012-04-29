@@ -1,0 +1,401 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Clipman Help</title>
+  </head>
+  <body>
+    <p style="font-family: Helvetica,Arial,sans-serif;"></p>
+    <h2><span style="font-weight: bold;">ClipMan - the Clipboard Manipulator</span></h2>
+    <p style="font-family: Helvetica,Arial,sans-serif;"> <span style="font-weight: bold;">Clipman
+        </span>is a clipboard manipulation application that sits in the icon
+      tray on Windows and Linux (and possibly MacOSX).<br />
+      It offers run-time Object Pascal syntax scripting to manipulate the
+      contents of the clipboard.  Additionally, there are some additional
+      features to load//save images to//from the clipboard in various image
+      formats.<br />
+    </p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">Right-click on the tray
+      clipboard icon gives the following options;<br />
+      <br />
+      <img title="Clipman Popup Menu" alt="" src="images/popupmenu.PNG" /><br />
+      <br />
+      <span style="font-weight: bold;">Clear Clipboard</span> - just clears the
+      content currently on the clipboard<br />
+      <a href="#ManageScripts"><span style="font-weight: bold;">Manage Scripts</span></a>
+      - to create, edit or delete scripts<br />
+      <span style="font-weight: bold;">Run Script</span> - to execute a script</p>
+    <p style="font-family: Helvetica,Arial,sans-serif;"><span style="font-weight: bold;">Load
+        Clipboard from file</span> -  to load a file to the clipboard - various
+      file types can be loaded at this time; text files (*.txt, *.csv, *.tab),
+      image formats (*.bmp,  *.jpg, *.png) - if the file isn't one of these but
+      you still select a file, an option to try and load it as a text file is
+      provided - if the contents of the file aren't of a textual format then it
+      probably won't work!<br />
+      <br />
+      <span style="font-weight: bold;">Save Clipboard to a file</span> - to save
+      the current contents of the clipboard to a file - This option provides a
+      facilty to save the text or image that's on the clipboard to a file. If
+      the clipboard content is of a text format then the options to save it will
+      be text file based (i.e. *.txt, *.csv, *.tab) although in theory you can
+      add any extension to the file to be saved. If the clipboard content is an
+      image then the options to save it will be image file based (i.e. *.bmp,
+      *.jpg, *.png, *.xpm)</p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">An additional option to
+      save the image file as reduced color bitmap is provided.  Bitmaps copied
+      to the clipboard from the desktop or active window on Windows are usually
+      quite large and so this feature provides a way of reducing the number of
+      colors in the bitmap to a usable level whilst still retaining sufficiently
+      good color content for things like desktop or active window screenshots-
+      this feature is experimental and is really only related to running the
+      Clipboard Manipulator on Windows - on Linux or OSX the image on a
+      clipboard is likely to be of a PNG or JPG format.<br />
+      <br />
+      <a href="#Options"><span style="font-weight: bold;">Options </span></a>-
+      this provides a few configurable options for ClipMan<br />
+      <span style="font-weight: bold;">About</span> - to display the about
+      dialog<br />
+      <span style="font-weight: bold;">Exit </span>- to exit from the
+      application<br />
+      <br />
+    </p>
+    <h2><a id="ManageScripts"><span style="font-weight: bold;">Managing Scripts</span></a><br />
+    </h2>
+    <p style="font-family: Helvetica,Arial,sans-serif;"><img title="Manage Scripts Image"
+        alt="" src="images/managescripts.PNG" /><br />
+      <br />
+    </p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">Choose "<a href="#WriteScripts">Add
+        New</a>" or "<a href="#WriteScripts">Edit</a>" - to write a new script
+      or edit existing ones<br />
+    </p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">Delete - to delete the
+      currently selected script - confirmation before deletion is requested.<br />
+    </p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">Help - to show this file
+      (Note many examples of how to use the functionality are included in the
+      sample scripts file - many of the functions are listed here</p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">Close - just closes this
+      window and return to the tray</p>
+    <p style="font-family: Helvetica,Arial,sans-serif;"><br />
+    </p>
+    <h2 style=" font-family: Helvetica,Arial,sans-serif;"><a id="WriteScripts">Adding
+        or Editing Scripts</a></h2>
+    <p style="font-family: Helvetica,Arial,sans-serif;"> <img alt="" src="images/writescript.PNG" /><br />
+      <br />
+      <span style="font-weight: bold;">Scriptname </span>is the name of the
+      script and will be the name you use to select the script from the
+      popupmenu<br />
+      <span style="font-weight: bold;">Category </span>- provides an option to
+      categorize the script so it appears on a sub-menu of the trayicon - leave
+      blank to appear on the main branch of the popupmenu<br />
+      <span style="font-weight: bold;">Description </span>- describe what your
+      function does<br />
+      <span style="font-weight: bold;">ScriptType </span>- reserved for future
+      use<br />
+      <span style="font-weight: bold;">Script </span>- write your script here -
+      if it's a big script then it might be useful to maximize the screen to see
+      it better - see the examples in the initial scripts file and a list of
+      some functions <a href="#Examples">here</a><br />
+      <span style="font-weight: bold;">Input (Test Data) -</span> enter your
+      test data here - will be setup with the default in the <a href="#Options"><span
+          style="font-weight: bold;">Options</span></a> if adding a new script <br />
+      <span style="font-weight: bold;">Test button</span> - press this to apply
+      your script to the test data and see the results in the "Output" window -
+      note this doesn't affect the clipboard - the test data is considered to be
+      the contents of the clipboard during testing, if you want to test what's
+      already on the clipboard just paste it into the "Input (Test Data)" area<br />
+      <span style="font-weight: bold;">Output </span>- this is where the test
+      results from applying your script to the test data can be seen - use this
+      to prove your script works correctly<br />
+      <br />
+      <span style="font-weight: bold;">Load Script </span>and <span style="font-weight: bold;">Save
+        Script</span> - allow you to load a function from a file into the script
+      editor (of course you could also just copy and paste it from the clipboard
+      if it's there<br />
+      <span style="font-weight: bold;">Help </span>- just shows this file<br />
+      <span style="font-weight: bold;">Cancel </span>- just avoids saving your
+      changes - note: if you have made a change no warning will be given<br />
+      <span style="font-weight: bold;">OK </span>- saves your script to the
+      scripts database<br />
+      <br />
+    </p>
+    <h2> <a id="Options">Options</a></h2>
+    <p style="font-family: Helvetica,Arial,sans-serif;"> This dialog allows the
+      user to control what start script initially appears in the script editor
+      and the example data in the test area when a new function is being written
+      -  just change the script to whatever skeleton script you're happy with
+      and some initial test data that would be appropriate in the majority of
+      situations.<br />
+      <br />
+      <img title="options image" alt="" src="images/options.PNG" /><br />
+      <br />
+      The checkbox "Show modified contents of clipboard as balloon hint"  will
+      provide a temporary hint over the icon in the tray of the first few lines
+      of the modified clipboard contents after a script has been run.  If this
+      option is unchecked no indicator will be provided.<br />
+      <br />
+      The spinbutton "Period the hint is displayed (in secs)" is the time in
+      seconds that the temporary hint will be shown if this option is enabled.<br />
+      <br />
+    </p>
+    <h2><a id="Examples">Example code and special functions</a><span style="font-family: Helvetica,Arial,sans-serif;"></span></h2>
+    <span style="font-family: Helvetica,Arial,sans-serif;">The scripting
+      language used here is "pascalscript" which is an abridged version of
+      Object Pascal.</span><br style="font-family: Helvetica,Arial,sans-serif;" />
+    <p style="font-family: Helvetica,Arial,sans-serif;"> Standard pascal
+      functionality is available "type", "const, "var", function and procedure
+      calls and some basic classes are included at this time.  Of particular use
+      is the TStringList class which can be declared and used in the same way
+      that Delphi/Lazarus use this class (note: the "ValueFromIndex" function
+      available in later implementations of the TStringList class is not
+      implemented here).</p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">The Clipboard is copied
+      at runtime to a TStringList instance called "Clippy".  To manipulate the
+      clipboard therefore it is necessary to changes the lines of the Clippy
+      variable applying functions and amendments to each line or the whole text
+      accordingly.<br />
+    </p>
+    <p style="font-family: Helvetica,Arial,sans-serif;">In addition to the
+      various methods and properties available from the TStringList class there
+      are many others included such as IntToStr, FloatToStr, StrToInt,
+      FloatToStr etc that are available as standard.  There are various extra
+      functions that have been added to make the scripting facilities a little
+      easier (see below).</p>
+    <p style="font-family: Helvetica,Arial,sans-serif;"><br />
+      Of course, if a function doesn't exist you could add this to your script
+      and still use it in the code, you'd just have to have it as a declared
+      function on each script where you want to use it prior to your main
+      begin/end. pair.  There are many examples of this in the test/examples and
+      utility scripts included in the base script library.<br />
+      <br />
+      In addition to the basic functions, some of the StrUtils library from
+      Lazarus has been made available.  In particular;<br />
+    </p>
+    <ul style="font-family: Helvetica,Arial,sans-serif;">
+      <li><br />
+      </li>
+      <li>Function AnsiStartsText(const ASubText, AText: AnsiString):
+        Boolean;                                                             <br />
+      </li>
+      <li>Function AnsiEndsText(const ASubText, AText: AnsiString):
+        Boolean;                                                               <br />
+      </li>
+      <li>Function AnsiReplaceText(const AText, AFromText, AToText: AnsiString):
+        string;                                                   <br />
+      </li>
+      <li>Function AnsiMatchText(const AText: AnsiString; const AValues: array
+        of AnsiString): Boolean;                                    <br />
+      </li>
+      <li>Function AnsiIndexText(const AText: AnsiString; const AValues: array
+        of AnsiString): Integer;                                    <br />
+      </li>
+      <li>Function AnsiContainsStr(const AText, ASubText: AnsiString):
+        Boolean;                                                            <br />
+      </li>
+      <li>Function AnsiStartsStr(const ASubText, AText: AnsiString):
+        Boolean;                                                              <br />
+      </li>
+      <li>Function AnsiEndsStr(const ASubText, AText: AnsiString):
+        Boolean;                                                               
+        <br />
+      </li>
+      <li>Function AnsiReplaceStr(const AText, AFromText, AToText: AnsiString):
+        string;                                                    <br />
+      </li>
+      <li>Function AnsiMatchStr(const AText: AnsiString; const AValues: array of
+        AnsiString): Boolean;                                     <br />
+      </li>
+      <li>Function AnsiIndexStr(const AText: AnsiString; const AValues: array of
+        AnsiString): Integer;                                     <br />
+      </li>
+      <li>Function DupeString(const AText: string; ACount: Integer):
+        string;                                                               <br />
+      </li>
+      <li>Function ReverseString(const AText: string):
+        string;                                                                            
+        <br /></li>
+      <li>Function AnsiReverseString(const AText: AnsiString):
+        String;                                                                    
+        <br />
+      </li>
+      <li>Function StuffString(const AText: string; AStart, ALength: Cardinal; 
+        const ASubText: string): string;                           <br />
+      </li>
+      <li>Function RandomFrom(const AValues: array of string):
+        string;                                                                    
+        <br />
+      </li>
+      <li>Function IfThen(AValue: Boolean; const ATrue: string; const AFalse:
+        string = ''): string;                                        <br />
+      </li>
+      <li>Function LeftStr(const AText: String; const ACount: Integer):
+        String;                                                            <br />
+      </li>
+      <li>Function RightStr(const AText: String; const ACount: Integer):
+        String;                                                           <br />
+      </li>
+      <li>Function MidStr(const AText: String; const AStart, ACount: Integer):
+        String;                                                     <br />
+      </li>
+      <li>Function RightBStr(const AText: String; const AByteCount: Integer):
+        String;                                                      <br />
+      </li>
+      <li>Function MidBStr(const AText: String; const AByteStart, AByteCount:
+        Integer): String;                                            <br />
+      </li>
+      <li>Function AnsiLeftStr(const AText: String; const ACount: Integer):
+        String;                                                        <br />
+      </li>
+      <li>Function AnsiRightStr(const AText: String; const ACount: Integer):
+        String;                                                       <br />
+      </li>
+      <li>Function AnsiMidStr(const AText: String; const AStart, ACount:
+        Integer): String;                                                 <br />
+      </li>
+      <li>Function LeftBStr(const AText: String; const AByteCount: Integer):
+        String;                                                       <br />
+      </li>
+      <li>Function PosEx(const SubStr, S: string; Offset: Cardinal):
+        Integer;                                                              <br />
+      </li>
+      <li>function StringsReplace(const S: string; OldPattern, NewPattern: array
+        of string;  Flags: TReplaceFlags): string;                <br />
+      </li>
+      <li>Function StringReplace(const S, OldPattern, NewPattern: string; 
+        Flags: TReplaceFlags): string;                                  <br />
+      </li>
+      <li>Function IsEmptyStr(const S: string; const EmptyChars: TSysCharSet):
+        Boolean;                                                    <br />
+      </li>
+      <li>function DelSpace(const S: string):
+        string;                                                                                     
+        <br /></li>
+      <li>function DelChars(const S: string; aChr: Char):
+        string;                                                                         
+        <br />
+      </li>
+      <li>function DelSpace1(const S: string):
+        string;                                                                                    
+        <br /></li>
+      <li>Function Tab2Space(const S: string; Numb: Byte):
+        string;                                                                        
+        <br />
+      </li>
+      <li>Function NPos(const C: string; S: string; N: Integer):
+        Integer;                                                                 
+        <br />
+      </li>
+      <li>Function AddChar(C: Char; const S: string; N: Integer):
+        string;                                                                 
+        <br />
+      </li>
+      <li>Function AddCharR(C: Char; const S: string; N: Integer):
+        string;                                                                
+        <br />
+      </li>
+      <li>Function PadLeft(const S: string; N: Integer):
+        string;                                                                          
+        <br /></li>
+      <li>Function PadRight(const S: string; N: Integer):
+        string;                                                                         
+        <br />
+      </li>
+      <li>Function PadCenter(const S: string; Len: Integer):
+        string;                                                                      
+        <br />
+      </li>
+      <li>Function Copy2Symb(const S: string; Symb: Char):
+        string;                                                                        
+        <br />
+      </li>
+      <li>Function Copy2SymbDel(var S: string; Symb: Char):
+        string;                                                                       
+        <br />
+      </li>
+      <li>Function Copy2Space(const S: string):
+        string;                                                                                   
+        <br /></li>
+      <li>Function Copy2SpaceDel(var S: string):
+        string;                                                                                  
+        <br /></li>
+      <li>Function AnsiProperCase(const S: string; const WordDelims:
+        TSysCharSet): string;                                                 <br />
+      </li>
+      <li>Function WordCount(const S: string; const WordDelims: TSysCharSet):
+        Integer;                                                     <br />
+      </li>
+      <li>Function WordPosition(const N: Integer; const S: string; const
+        WordDelims: TSysCharSet): Integer;                                <br />
+      </li>
+      <li>Function ExtractWord(N: Integer; const S: string;  const WordDelims:
+        TSysCharSet): string;                                       <br />
+      </li>
+      <li>Function ExtractWordPos(N: Integer; const S: string; const WordDelims:
+        TSysCharSet; var Pos: Integer): string;                   <br />
+      </li>
+      <li>Function ExtractDelimited(N: Integer; const S: string;  const Delims:
+        TSysCharSet): string;                                      <br />
+      </li>
+      <li>Function ExtractSubstr(const S: string; var Pos: Integer;  const
+        Delims: TSysCharSet): string;                                   <br />
+      </li>
+      <li>Function IsWordPresent(const W, S: string; const WordDelims:
+        TSysCharSet): Boolean;                                              <br />
+      </li>
+      <li>Function FindPart(const HelpWilds, InputStr: string):
+        Integer;                                                                  
+        <br />
+      </li>
+      <li>Function IsWild(InputStr, Wilds: string; IgnoreCase: Boolean):
+        Boolean;                                                          <br />
+      </li>
+      <li>Function TrimLeftSet(const S: String;const CSet:TSysCharSet):
+        String;                                                            <br />
+      </li>
+      <li>Function TrimRightSet(const S: String;const CSet:TSysCharSet):
+        String;                                                           <br />
+      </li>
+      <li>Function TrimSet(const S: String;const CSet:TSysCharSet):
+        String;                                                                <br />
+      </li>
+    </ul>
+    <span style="font-family: Helvetica,Arial,sans-serif;">Various "special"
+      functions are available, these are;</span><br />
+    <ul style="font-family: Helvetica,Arial,sans-serif;">
+      <li>function ShowSaveDialog:string; - provides an option to get the name
+        of a file to save something at runtime, note: you'll need to handle an
+        empty return here!</li>
+      <li>function ShowOpenDialog:string; - gets the name of a file to open a
+        runtime - note: you may need to handle any file issues here</li>
+      <li>function IfFileExists(Filename:String):Boolean; - checks whether a
+        file exists or not!</li>
+      <li>procedure ShowMessage(Msg:string); - just displays a message to the
+        user</li>
+      <li>procedure ErrorMessage(Msg:string); - provides a way of displaying an
+        error message to the user <br />
+      </li>
+      <li>function IsConfirmed(Msg:string):boolean; - use this to get a yes/no
+        option from the user - note: "no" is assumed if dialog is closed</li>
+      <li>function InputBox(Title, Msg, DefaultText :String):string; - use this
+        to get some runtime input from the user</li>
+    </ul>
+    <span style="font-family: Helvetica,Arial,sans-serif;">Examples of most of
+      these functions are included in the basic scripts library.  These could be
+      removed to free up some space on the menu once you are comfortable with
+      the application and what it can do. </span><br />
+    <br style="font-family: Helvetica,Arial,sans-serif;" />
+    <span style="font-family: Helvetica,Arial,sans-serif;">If a particular
+      function is worth adding to the core library then let me know and I'll see
+      if it can be incorporated - I had intentions to include some RegExpr
+      functions but at this time this is not incorporated in the library.</span><br />
+    <br style="font-family: Helvetica,Arial,sans-serif;" />
+    <span style="font-family: Helvetica,Arial,sans-serif;">Future functionality
+      may include functions to manipulate other clipboard types such as bitmaps
+      or metadata - but that's for another day!</span>
+    <ul style="font-family: Helvetica,Arial,sans-serif;">
+    </ul>
+    <p style="font-family: Helvetica,Arial,sans-serif;"><br />
+    </p>
+  </body>
+</html>
